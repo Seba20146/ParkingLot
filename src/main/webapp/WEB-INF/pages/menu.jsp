@@ -12,6 +12,9 @@
                  ("/")   )  eq '/about.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/about.jsp">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:8080/ParkingLot-1.0-SNAPSHOT/Cars">Cars</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
