@@ -4,17 +4,19 @@
 
 <t:pageTemplate pageTitle="Cars">
     <h1>Cars</h1>
-    <div class="row">
-        <c:forEach var="car" items="${cars}"></c:forEach>
-            <div class="col">
-                ${car.licensePlate}
+    <div class="container text-center">
+        <c:forEach var="car" items="${cars}">
+            <div class="row">
+                <div class="col">
+                        ${car.licensePlate}
+                </div>
+                <div class="col">
+                        ${car.parkingSpot}
+                </div>
+                <div class="col">
+                        ${car.ownerName}
+                </div>
             </div>
-            <div class="col">
-                ${car.parkingSpot}
-            </div>
-            <div class="col">
-                 ${car.ownerName}
-             </div>
         </c:forEach>
     </div>
 
